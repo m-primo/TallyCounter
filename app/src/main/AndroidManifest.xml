@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="tally_counter.gp">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:allowBackup="true"
+        android:label="Tally Counter"
+        android:icon="@drawable/icon">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+  
+    </application>
+
+</manifest>
